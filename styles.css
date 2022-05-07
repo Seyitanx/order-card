@@ -1,0 +1,28 @@
+body{
+    background-color: hsl(228, 39%, 85%);;
+}
+
+.container{
+  background-color: white;
+text-align: center;
+display: flex;
+border-radius: 30px ;
+padding-left: 0px;
+border: 1px ;
+width: 450px;
+position: relative;
+overflow: hidden;
+}
+h1,h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.plan{
+    text-align: left;
+    border-radius: 10px;
+    width: 350px;
+    line-height: 50px;
+    background-color: hsl(228, 39%, 85%);
+    padding: 10px;
+    margin: 50px;
+
+}
