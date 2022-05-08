@@ -1,28 +1,65 @@
-body{
-    background-color: hsl(228, 39%, 85%);;
+body {
+  background-color: hsl(220, 10%, 88%);
 }
 
-.container{
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
   background-color: white;
-text-align: center;
-display: flex;
-border-radius: 30px ;
-padding-left: 0px;
-border: 1px ;
-width: 450px;
-position: relative;
-overflow: hidden;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  padding: 0px;
+  
 }
-h1,h4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1,
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgb(15, 15, 15);
 }
-.plan{
-    text-align: left;
-    border-radius: 10px;
-    width: 350px;
-    line-height: 50px;
-    background-color: hsl(228, 39%, 85%);
-    padding: 10px;
-    margin: 50px;
+p{
+    font-size: 15px;
+}
+.plan {
+  text-align: left;
+  border-radius: 10px;
+  width: 300px;
+  line-height: 10px;
+  background-color: hsl(227, 85%, 95%);
+ 
+  margin-left: 50px;
+}
+strong{
+    position: relative;
+    top: 5px;
+}
+.amount{
+   position: relative;
+   right: 40px;
+   
+}
+.first-link{
+    position: relative;
+    left: 230px;
+    bottom: 30px;
+}
 
+.payment{
+    border-radius: 20px;
+    background-color: blue;
+    margin: 25px;
+ 
+    padding: 10px 10px;
+}
+.payment a{
+    color: white;
+    text-decoration: none;
 }
