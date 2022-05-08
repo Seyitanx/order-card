@@ -1,32 +1,43 @@
 body {
-  background-color: hsl(220, 10%, 88%);
+  background-color: hsl(219, 42%, 85%);
+
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
 }
 
 .main-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .container {
   background-color: white;
   text-align: center;
-  border-radius: 30px;
+  border-radius: 20px;
   border: 1px;
   position: relative;
   overflow: hidden;
   width: 400px;
   padding: 0px;
-  
 }
+
 h1,
 p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  color: rgb(15, 15, 15);
+
+  margin-top: 20px;
 }
-p{
-    font-size: 15px;
+
+h1 {
+  font-weight: bold;
+}
+
+.paragraph p {
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+  padding: 20px 20px;
 }
 .plan {
   text-align: left;
@@ -34,32 +45,45 @@ p{
   width: 300px;
   line-height: 10px;
   background-color: hsl(227, 85%, 95%);
- 
+
   margin-left: 50px;
 }
-strong{
-    position: relative;
-    top: 5px;
+strong {
+  position: relative;
+  top: 5px;
 }
-.amount{
-   position: relative;
-   right: 40px;
-   
+.amount {
+  position: relative;
+  right: 40px;
+  bottom: 25px;
 }
-.first-link{
-    position: relative;
-    left: 230px;
-    bottom: 30px;
+.first-link {
+  position: relative;
+  left: 230px;
+  bottom: 50px;
+  color: purple;
 }
 
-.payment{
-    border-radius: 20px;
-    background-color: blue;
-    margin: 25px;
- 
-    padding: 10px 10px;
+.payment {
+  border-radius: 20px;
+  background-color: blue;
+  margin: 25px;
+  box-shadow: 2px 3px 3px 3px rgb(177, 177, 177);
+  padding: 10px 10px;
 }
-.payment a{
-    color: white;
-    text-decoration: none;
+.payment a {
+  color: white;
+  text-decoration: none;
+}
+.payment:hover {
+  cursor: pointer;
+}
+
+.order {
+  margin-bottom: 10px;
+}
+
+.order a {
+  color: black;
+  text-decoration: none;
 }
