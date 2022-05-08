@@ -39,6 +39,11 @@ h1 {
   font-size: 15px;
   padding: 20px 20px;
 }
+.class-plan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .plan {
   text-align: left;
   border-radius: 10px;
@@ -46,7 +51,7 @@ h1 {
   line-height: 1px;
   background-color: hsl(227, 85%, 95%);
 
-  margin-left: 50px;
+ 
 }
 strong {
   position: relative;
