@@ -43,7 +43,7 @@ h1 {
   text-align: left;
   border-radius: 10px;
   width: 300px;
-  line-height: 10px;
+  line-height: 1px;
   background-color: hsl(227, 85%, 95%);
 
   margin-left: 50px;
@@ -54,7 +54,7 @@ strong {
 }
 .amount {
   position: relative;
-  right: 40px;
+  right: 45px;
   bottom: 25px;
 }
 .first-link {
